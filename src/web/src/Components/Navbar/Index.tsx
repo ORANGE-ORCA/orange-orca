@@ -10,10 +10,40 @@ const Navbar = () => {
             <li className="font-semibold text-lg">
                 <NavLink to="/">ORANGE ORCA</NavLink>
             </li>
-            <li>c
+            <li>
                 <NavLink to="/"
                         className={({ isActive }) => (isActive ? activeStyle : undefined)}>
                     All
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to="/clothing"
+                        className={({ isActive }) => (isActive ? activeStyle : undefined)}>
+                    Clothing
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to="/electronics"
+                        className={({ isActive }) => (isActive ? activeStyle : undefined)}>
+                    Electronics
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to="/Sports"
+                        className={({ isActive }) => (isActive ? activeStyle : undefined)}>
+                    Sports
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to="/Toys"
+                        className={({ isActive }) => (isActive ? activeStyle : undefined)}>
+                    Toys
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to="/Clearance"
+                        className={({ isActive }) => (isActive ? activeStyle : undefined)}>
+                    Clearance
                 </NavLink>
             </li>
         </ul>
