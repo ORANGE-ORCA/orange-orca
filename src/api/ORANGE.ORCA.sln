@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORANGE.ORCA.Api", "ORANGE.ORCA.Api\ORANGE.ORCA.Api.csproj", "{999064B6-0992-48C9-A492-804D4E95E395}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORANGE.ORCA.Domain", "ORANGE.ORCA.Domain\ORANGE.ORCA.Domain.csproj", "{D63F8785-3326-4686-94EF-23C0B04A2C05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orange.Orca.Data", "Orange.Orca.Data\Orange.Orca.Data.csproj", "{D7B71A74-4A1F-4152-9A62-E10DF517B47D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{999064B6-0992-48C9-A492-804D4E95E395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{999064B6-0992-48C9-A492-804D4E95E395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{999064B6-0992-48C9-A492-804D4E95E395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{999064B6-0992-48C9-A492-804D4E95E395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D63F8785-3326-4686-94EF-23C0B04A2C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D63F8785-3326-4686-94EF-23C0B04A2C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D63F8785-3326-4686-94EF-23C0B04A2C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D63F8785-3326-4686-94EF-23C0B04A2C05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B71A74-4A1F-4152-9A62-E10DF517B47D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B71A74-4A1F-4152-9A62-E10DF517B47D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B71A74-4A1F-4152-9A62-E10DF517B47D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B71A74-4A1F-4152-9A62-E10DF517B47D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
