@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORANGE.ORCA.Domain", "ORANG
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orange.Orca.Data", "Orange.Orca.Data\Orange.Orca.Data.csproj", "{D7B71A74-4A1F-4152-9A62-E10DF517B47D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orange.Orca.Domain.Tests", "..\..\tests\Orange.Orca.Domain.Tests\Orange.Orca.Domain.Tests.csproj", "{99F5B4C6-4056-48EB-B664-C224B7BB0C4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{D7B71A74-4A1F-4152-9A62-E10DF517B47D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7B71A74-4A1F-4152-9A62-E10DF517B47D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7B71A74-4A1F-4152-9A62-E10DF517B47D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99F5B4C6-4056-48EB-B664-C224B7BB0C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99F5B4C6-4056-48EB-B664-C224B7BB0C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99F5B4C6-4056-48EB-B664-C224B7BB0C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99F5B4C6-4056-48EB-B664-C224B7BB0C4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
